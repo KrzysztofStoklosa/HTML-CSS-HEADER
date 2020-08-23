@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://use.fontawesome.com/5dbf942748.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header__top-panel">
+          <div class="header__top-panel-containers">
+            <span class="header__top-panel-phone"
+              ><i class="fas fa-phone-alt"></i> 293939098</span
+            >
+            <span class="header__top-panel-email"
+              ><i class="far fa-envelope"></i> kontakt@aurorabox.pl</span
+            >
+          </div>
+          <div class="header__top-panel-containers">
+            <button class="header__top-panel-button">
+              <i class="fas fa-lock"></i>Zaloguj się
+            </button>
+            <button
+              class="header__top-panel-button header__top-panel-button--border"
+            >
+              <i class="far fa-user"></i>Załóż konto
+            </button>
+          </div>
+        </div>
+        <div class="header__middle-panel">
+          <div class="header__middle-panel-container1">
+            <div class="logo">
+              Aurora <span class="logo__span">BOX</span>
+              <div class="logo__white1"></div>
+              <div class="logo__white2"></div>
+            </div>
+          </div>
+          <div class="header__middle-panel-container2">
+            <div class="header__middle-panel-search">
+              <input
+                class="header__middle-panel-search-input"
+                type="text"
+                placeholder="Co chcesz kupić?"
+              />
+              <i class="fas fa-search"></i>
+            </div>
+            <div class="header__middle-panel-basket">
+              <img src="./img/bag32.png" alt="shopping bag" />
+              <div class="header__middle-panel-basket-div">Twój koszyk</div>
+              <div class="header__middle-panel-basket-number">2</div>
+            </div>
+          </div>
+        </div>
+        <div class="header__menu">
+          <nav class="menu">
+            <label for="tm" id="toggle-menu"
+              >Menu <span class="menu__toggle-menu-drop-icon">▾</span></label
+            >
+            <input type="checkbox" id="tm" />
+            <ul class="menu__main-menu clearfix menu__ul">
+              <li class="menu__li">
+                <a href="#" class="menu__a"
+                  >Kategorie
+                  <span class="menu__ul-span-drop-icon">▾</span>
+                  <label
+                    title="Toggle Drop-down"
+                    class="menu__li-label-drop-icon"
+                    for="sm1"
+                    >▾</label
+                  >
+                </a>
+                <input type="checkbox" class="menu__input" id="sm1" />
+                <ul class="menu__sub-menu">
+                  <li class="menu__li menu__sub-menu-li">
+                    <a href="#" class="menu__a">Lorem Ipsum</a>
+                  </li>
+                  <li class="menu__li menu__sub-menu-li">
+                    <a href="#" class="menu__a">Lorem Ipsum </a>
+                  </li>
+                  <li class="menu__li menu__sub-menu-li">
+                    <a href="#" class="menu__a">Lorem Ipsum</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__li"><a href="#" class="menu__a">Nowości</a></li>
+              <li class="menu__li"><a href="#" class="menu__a">Promocje</a></li>
+              <li class="menu__li">
+                <a href="#" class="menu__a">Wyprzedaże</a>
+              </li>
+              <li class="menu__li">
+                <a href="#" class="menu__a"
+                  >Kolekcje sezony
+                  <span class="menu__ul-span-drop-icon">▾</span>
+                  <label
+                    title="Toggle Drop-down"
+                    class="menu__li-label-drop-icon"
+                    for="sm2"
+                    >▾</label
+                  >
+                </a>
+                <input type="checkbox" class="menu__input" id="sm2" />
+                <ul class="menu__sub-menu">
+                  <li class="menu__li menu__sub-menu-li">
+                    <a href="#" class="menu__a">Sezon1</a>
+                  </li>
+                  <li class="menu__li menu__sub-menu-li">
+                    <a href="#" class="menu__a">Sezon2 </a>
+                  </li>
+                  <li class="menu__li menu__sub-menu-li">
+                    <a href="#" class="menu__a">Sezon 3</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__li">
+                <a href="#" class="menu__a">Nasza oferta</a>
+              </li>
+              <li class="menu__li">
+                <a href="#" class="menu__a">Trendy 2020</a>
+              </li>
+              <li class="menu__li"><a href="#" class="menu__a">Blog</a></li>
+              <li class="menu__li"><a href="#" class="menu__a">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+  </body>
+</html>
